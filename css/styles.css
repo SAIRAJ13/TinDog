@@ -1,0 +1,148 @@
+#title{
+  background-color: #ff4c68;
+  text-align: left;
+}
+h1{
+  font-family: "Montserrat-black";
+  font-weight: bolder;
+  font-size: 4em;
+  line-height: 1.5;
+}
+.titleimage{
+  margin-top: 3rem;
+  width: 60%;
+  transform: rotate(25deg);
+}
+.container-fluid{
+  padding: 3% 15%;
+}
+.navbar-brand{
+  font-size: 2rem;
+  font-family: Ubuntu;
+  font-weight: bold;
+}
+.nav-item{
+  padding: 0 2rem;
+}
+.navbar-nav{
+  position: relative;
+  left: 6rem;
+}
+#features{
+  margin: 0;
+  margin-top: 1rem;
+  margin-bottom: 2rem;
+  line-height: 0.5rem;
+  padding: 10% 0;
+}
+.checkcircle{
+  padding: 0;
+  margin-top: 1rem;
+  margin-bottom: 0;
+}
+.bullseye{
+  margin-top: 1rem;
+}
+.heart{
+    margin-top: 1rem;
+}
+.fa-solid{
+  color: #ff4c68;
+  cursor:pointer;
+}
+.fa-solid:hover{
+  color: red;
+}
+#testimonials{
+  background-color: #ff4c68;
+  color: white;
+  text-align: center;
+}
+h2{
+  font-family: "Montserrat-bolder";
+  font-weight: bold;
+  line-height: 1.5;
+  font-size: 3rem;
+}
+.testimonial-icon{
+  margin: 3rem 1.5rem;
+  height: 150px;
+  width: 150px;
+  border-radius: 100%;
+}
+#press{
+  background-color: #ff4c68;
+  padding: 4rem;
+  text-align: center;
+  padding-top: 0;
+}
+.media {
+  height: 80px;
+  width: 200px;
+  margin: 0 3rem;
+  padding-bottom: 2rem;
+}
+.carousel-item{
+  padding: 7% 15%;
+}
+#pricing{
+  padding: 100px;
+  text-align: center;
+}
+.pricing-table{
+  margin: 4% 2%;
+}
+.mass{
+  width:50%;
+  position:relative;
+  left:325px;
+}
+p{
+  font-size: 20px;
+}
+.card-header{
+  background-color:  #ff4c68;
+  color: white;
+}
+.card{
+  border-style: solid;
+  border-color: black;
+}
+@media (max-width: 992px) {
+    #title{
+      text-align: center;
+    }
+    .mass{
+        width: inherit;
+        position: static;
+    }
+}
+#cta{
+  background-color: #ff4c68;
+  padding: 150px 0;
+  text-align: center;
+}
+.cta{
+  padding-bottom: 50px;
+  font-family: "Montserrat-bold";
+  font-weight: bolder;
+  font-size: 3rem;
+  color: white;
+}
+
+#footer{
+  padding: 100px;
+  text-align: center;
+}
+.fa-brands{
+  margin: 0 10px;
+}
+.envelope{
+  color: black;
+  margin: 0 10px;
+}
+.Copyright{
+  position: relative;
+  top: 30px;
+  font-size: 1rem;
+}
